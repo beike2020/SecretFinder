@@ -74,7 +74,10 @@ _regex = {
                     r"password\s*[`=:\"]+\s*[^\s]+|" \
                     r"password is\s*[`=:\"]*\s*[^\s]+|" \
                     r"pwd\s*[`=:\"]*\s*[^\s]+|" \
-                    r"passwd\s*[`=:\"]+\s*[^\s]+)",
+                    r"passwd\s*[`=:\"]+\s*[^\s]+|" \
+                    r"AccessKeyId\s*[`=:\"]+\s*[^\s]+|" \
+                    r"SecretKeyId\s*[`=:\"]+\s*[^\s]+|" \
+                    r"SecurityToken\s*[`=:\"]+\s*[^\s]+)",
 }
 
 _template = '''
